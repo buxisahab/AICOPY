@@ -1,0 +1,7 @@
+// Add this AFTER all dependencies block, before the closing brace
+configurations.all {
+    resolutionStrategy {
+        // Force protobuf version to avoid conflicts with Firebase protolite-well-known-types
+        force("com.google.protobuf:protobuf-javalite:4.31.1")
+    }
+}

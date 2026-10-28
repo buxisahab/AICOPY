@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Phone body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M7,4 Q7,2 9,2 L15,2 Q17,2 17,4 L17,20 Q17,22 15,22 L9,22 Q7,22 7,20 Z"/>
+    <!-- Screen -->
+    <path
+        android:fillColor="#888888"
+        android:pathData="M8.5,5 L15.5,5 L15.5,18 L8.5,18 Z"/>
+    <!-- Left vibration lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M5,8 Q3.5,9 3.5,12 Q3.5,15 5,16"/>
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:pathData="M3.2,6.5 Q1,9 1,12 Q1,15 3.2,17.5"/>
+    <!-- Right vibration lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M19,8 Q20.5,9 20.5,12 Q20.5,15 19,16"/>
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:pathData="M20.8,6.5 Q23,9 23,12 Q23,15 20.8,17.5"/>
+</vector>

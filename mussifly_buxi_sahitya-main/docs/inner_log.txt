@@ -1,0 +1,20 @@
+Configuration on demand is an incubating feature.
+Calculating task graph as no cached configuration is available for tasks: :innertube:compileKotlin
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Multiple build operations failed.
+    Could not read workspace metadata from E:\Gradle\caches\8.13\transforms\360c104c79a8af830c3da6aeb53cf8ef\metadata.bin
+    Could not read workspace metadata from E:\Gradle\caches\8.13\transforms\9feafa868230c1808fac1869007bbf43\metadata.bin
+> Could not read workspace metadata from E:\Gradle\caches\8.13\transforms\360c104c79a8af830c3da6aeb53cf8ef\metadata.bin
+> Could not read workspace metadata from E:\Gradle\caches\8.13\transforms\9feafa868230c1808fac1869007bbf43\metadata.bin
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 880ms
+Configuration cache entry stored.

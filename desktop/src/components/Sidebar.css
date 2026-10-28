@@ -1,0 +1,191 @@
+.sidebar {
+    grid-column: 1;
+    grid-row: 1;
+    background: var(--theme-surface);
+    border-right: 1px solid var(--theme-border);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    position: relative;
+}
+
+.sidebar::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 0%, var(--theme-accent-glow) 0%, transparent 50%);
+    opacity: 0.05;
+    pointer-events: none;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.sidebar-header {
+    padding: var(--spacing-xl) var(--spacing-lg);
+    border-bottom: 1px solid var(--theme-border);
+}
+
+.app-logo {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--theme-accent) 0%, var(--theme-accent-bright) 100%);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 4px 12px var(--theme-accent-glow);
+}
+
+.logo-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.app-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--theme-accent) 0%, var(--theme-accent-bright) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.5px;
+}
+
+.sidebar-nav {
+    flex: 1;
+    padding: var(--spacing-lg) 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-lg);
+    color: var(--theme-text-tertiary);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all var(--transition-fast);
+    position: relative;
+    border-left: 3px solid transparent;
+}
+
+.nav-item svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.nav-item:hover {
+    color: var(--theme-text-primary);
+    background: var(--theme-card);
+}
+
+.nav-item.active {
+    color: var(--theme-accent);
+    background: var(--theme-card);
+    border-left-color: var(--theme-accent);
+}
+
+.nav-item.active::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 0% 50%, var(--theme-accent-glow) 0%, transparent 70%);
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.sidebar-footer {
+    padding: var(--spacing-lg);
+    border-top: 1px solid var(--theme-border);
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 0.85rem;
+    color: var(--theme-text-tertiary);
+    margin-bottom: 4px;
+}
+
+.footer-version {
+    font-size: 0.75rem;
+    color: var(--theme-text-tertiary);
+    opacity: 0.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        border-right: none;
+        border-bottom: 1px solid var(--theme-border);
+    }
+
+    .sidebar-content {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .sidebar-header {
+        padding: var(--spacing-md);
+        border-bottom: none;
+        border-right: 1px solid var(--theme-border);
+    }
+
+    .app-logo {
+        flex-direction: column;
+        gap: var(--spacing-xs);
+    }
+
+    .app-title {
+        font-size: 0.75rem;
+    }
+
+    .sidebar-nav {
+        flex-direction: row;
+        padding: 0 var(--spacing-md);
+        overflow-x: auto;
+    }
+
+    .nav-item {
+        flex-direction: column;
+        gap: 4px;
+        padding: var(--spacing-sm);
+        font-size: 0.75rem;
+        border-left: none;
+        border-bottom: 3px solid transparent;
+        min-width: 80px;
+    }
+
+    .nav-item svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .nav-item.active {
+        border-left-color: transparent;
+        border-bottom-color: var(--theme-accent);
+    }
+
+    .sidebar-footer {
+        display: none;
+    }
+}

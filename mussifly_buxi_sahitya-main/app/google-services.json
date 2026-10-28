@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "524486889906",
+    "firebase_url": "https://musifly-f1653-default-rtdb.firebaseio.com",
+    "project_id": "musifly-f1653",
+    "storage_bucket": "musifly-f1653.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524486889906:android:e81de78273a2cc5ffa94ab",
+        "android_client_info": {
+          "package_name": "com.musifly.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524486889906-7ljv932to1omn9a4lh0vrfb18g93jite.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.musifly.android",
+            "certificate_hash": "8e93091408f8f0fcc7ef779a5c0ea66f96886f31"
+          }
+        },
+        {
+          "client_id": "524486889906-gifb17knhurljk402i4c8lri8nr5kevr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOIf_2GFln-GRl3MKpCRcIE71G9Gbo-Ds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524486889906-2ajcqfbaufvag4tonemc32qvtgejudrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524486889906:android:6f91920c9b05cf26fa94ab",
+        "android_client_info": {
+          "package_name": "com.musifly.android.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524486889906-4gcgad65m1f4m84vedirqlfl76vinkor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.musifly.android.debug",
+            "certificate_hash": "162ee4a835fb4007f18bd7cb796016b08402bed8"
+          }
+        },
+        {
+          "client_id": "524486889906-864mn6ev0hukdblsdvi7v32ihtn8vmbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.musifly.android.debug",
+            "certificate_hash": "e4e662b3b0f655993c45fa103834bdca40b45396"
+          }
+        },
+        {
+          "client_id": "524486889906-sqan9p7buh1aui8hq0o9tagva6sj49nv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.musifly.android.debug",
+            "certificate_hash": "8e93091408f8f0fcc7ef779a5c0ea66f96886f31"
+          }
+        },
+        {
+          "client_id": "524486889906-gifb17knhurljk402i4c8lri8nr5kevr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOIf_2GFln-GRl3MKpCRcIE71G9Gbo-Ds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524486889906-2ajcqfbaufvag4tonemc32qvtgejudrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

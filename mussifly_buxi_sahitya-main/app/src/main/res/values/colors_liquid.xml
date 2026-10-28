@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Liquid Glass Theme Colors - Glassmorphic with neon effects -->
+    
+    <!-- Neon Gradient Colors -->
+    <color name="liquid_neon_pink">#FFFF00FF</color>
+    <color name="liquid_neon_purple">#FF8F00FF</color>
+    <color name="liquid_neon_blue">#FF00C8FF</color>
+    <color name="liquid_neon_cyan">#FF00FFFF</color>
+    
+    <!-- Primary Colors - Neon Accents -->
+    <color name="liquid_primary">#FFFF00FF</color>
+    <color name="liquid_primary_variant">#FF8F00FF</color>
+    <color name="liquid_secondary">#FF00C8FF</color>
+    <color name="liquid_secondary_variant">#FF0099CC</color>
+    
+    <!-- Glass Background Colors - Semi-transparent -->
+    <color name="liquid_background">#E6000000</color>
+    <color name="liquid_surface">#33FFFFFF</color>
+    <color name="liquid_surface_variant">#26FFFFFF</color>
+    <color name="liquid_surface_container">#40FFFFFF</color>
+    
+    <!-- Glass Card Colors -->
+    <color name="liquid_card_background">#33FFFFFF</color>
+    <color name="liquid_card_surface">#26FFFFFF</color>
+    <color name="liquid_glass_panel">#40FFFFFF</color>
+    <color name="liquid_glass_frost">#66FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="liquid_on_primary">#FFFFFF</color>
+    <color name="liquid_on_secondary">#FFFFFF</color>
+    <color name="liquid_on_background">#FFFFFF</color>
+    <color name="liquid_on_surface">#FFFFFF</color>
+    <color name="liquid_on_surface_variant">#E6FFFFFF</color>
+    
+    <!-- Accent Colors -->
+    <color name="liquid_accent">#FFFF00FF</color>
+    <color name="liquid_accent_variant">#FF00C8FF</color>
+    
+    <!-- Gradient Colors for Background -->
+    <color name="liquid_gradient_start">#FF1A0033</color>
+    <color name="liquid_gradient_mid">#FF4A148C</color>
+    <color name="liquid_gradient_end">#FF000033</color>
+    
+    <!-- Neon Border Colors -->
+    <color name="liquid_border_glow">#80FF00FF</color>
+    <color name="liquid_border_primary">#FFFF00FF</color>
+    <color name="liquid_border_secondary">#FF00C8FF</color>
+    
+    <!-- Border & Divider -->
+    <color name="liquid_outline">#66FF00FF</color>
+    <color name="liquid_outline_variant">#33FF00FF</color>
+    <color name="liquid_divider">#40FF00FF</color>
+    
+    <!-- Error Colors -->
+    <color name="liquid_error">#FFFF3366</color>
+    <color name="liquid_on_error">#FFFFFF</color>
+    
+    <!-- Shadow & Glow -->
+    <color name="liquid_shadow">#80FF00FF</color>
+    <color name="liquid_glow">#66FF00FF</color>
+    <color name="liquid_elevation_overlay">#1AFF00FF</color>
+    
+    <!-- Liquid Ripple -->
+    <color name="liquid_ripple">#40FFFFFF</color>
+</resources>

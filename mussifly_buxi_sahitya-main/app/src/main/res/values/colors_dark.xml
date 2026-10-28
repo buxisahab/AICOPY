@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme Colors - OLED optimized true black -->
+    
+    <!-- Primary Colors -->
+    <color name="dark_primary">#FF90CDF4</color>
+    <color name="dark_primary_variant">#FF64B5F6</color>
+    <color name="dark_secondary">#FF81C784</color>
+    <color name="dark_secondary_variant">#FF66BB6A</color>
+    
+    <!-- Background Colors - OLED True Black -->
+    <color name="dark_background">#000000</color>
+    <color name="dark_surface">#0A0A0A</color>
+    <color name="dark_surface_variant">#1A1A1A</color>
+    <color name="dark_surface_container">#121212</color>
+    
+    <!-- Text Colors -->
+    <color name="dark_on_primary">#000000</color>
+    <color name="dark_on_secondary">#000000</color>
+    <color name="dark_on_background">#FFFFFF</color>
+    <color name="dark_on_surface">#FFFFFF</color>
+    <color name="dark_on_surface_variant">#B3B3B3</color>
+    
+    <!-- Accent Colors - Deep Purples -->
+    <color name="dark_accent">#FF9C27B0</color>
+    <color name="dark_accent_variant">#FF7B1FA2</color>
+    <color name="dark_purple_primary">#FF6A1B9E</color>
+    <color name="dark_purple_secondary">#FF4A148C</color>
+    
+    <!-- Gradient Colors -->
+    <color name="dark_gradient_start">#FF1A0033</color>
+    <color name="dark_gradient_end">#FF000000</color>
+    <color name="dark_gradient_mid">#FF2D1B3D</color>
+    
+    <!-- Card Colors -->
+    <color name="dark_card_background">#0F0F0F</color>
+    <color name="dark_card_surface">#151515</color>
+    
+    <!-- Border & Divider -->
+    <color name="dark_outline">#333333</color>
+    <color name="dark_outline_variant">#1F1F1F</color>
+    <color name="dark_divider">#2A2A2A</color>
+    
+    <!-- Error Colors -->
+    <color name="dark_error">#CF6679</color>
+    <color name="dark_on_error">#000000</color>
+    
+    <!-- Shadow & Elevation -->
+    <color name="dark_shadow">#40000000</color>
+    <color name="dark_elevation_overlay">#1AFFFFFF</color>
+</resources>

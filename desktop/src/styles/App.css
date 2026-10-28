@@ -1,0 +1,50 @@
+.app {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 1fr auto;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: var(--theme-dark);
+}
+
+.main-content {
+    grid-column: 2;
+    grid-row: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: var(--theme-dark);
+    position: relative;
+}
+
+/* Scrollbar for main content */
+.main-content::-webkit-scrollbar {
+    width: 12px;
+}
+
+.main-content::-webkit-scrollbar-track {
+    background: var(--theme-surface);
+}
+
+.main-content::-webkit-scrollbar-thumb {
+    background: var(--theme-card);
+    border-radius: var(--radius-full);
+    border: 2px solid var(--theme-surface);
+}
+
+.main-content::-webkit-scrollbar-thumb:hover {
+    background: var(--theme-accent);
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .app {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+    }
+
+    .main-content {
+        grid-column: 1;
+        grid-row: 2;
+    }
+}

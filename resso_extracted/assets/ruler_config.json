@@ -1,0 +1,127 @@
+{
+  "signature": "1",
+  "strategy_set": {
+    "guard": {
+      "strategy_select_break": false,
+      "rule_exec_break": false,
+      "policies": {
+        "pair_not_close": {
+          "title": "pair_not_close",
+          "conf": {
+            "action": "report",
+            "upload_params": {
+              "upload_alog": true,
+              "filter_extra_info": true
+            }
+          },
+          "cel": "is_pair_not_close == true"
+        },
+        "pair_delay_close": {
+          "title": "pair_delay_close",
+          "conf": {
+            "action": "report",
+            "upload_params": {
+              "filter_extra_info": true,
+              "upload_alog": true
+            }
+          },
+          "cel": "is_pair_delay_close == true"
+        },
+        "disable_when_app_background": {
+          "title": "disable_when_app_background",
+          "conf": {
+            "action": "report",
+            "upload_params": {
+              "upload_alog": true,
+              "filter_extra_info": true
+            }
+          },
+          "cel": "is_background(2)"
+        },
+        "disable_anyway": {
+          "title": "disable_anyway",
+          "conf": {
+            "action": "report",
+            "upload_params": {
+              "upload_alog": true,
+              "filter_extra_info": true
+            }
+          },
+          "cel": "true"
+        }
+      },
+      "strategies": {
+        "pair": {
+          "rules": [
+            "pair_not_close",
+            "pair_delay_close",
+            "disable_when_app_background"
+          ]
+        },
+        "location": {
+          "rules": [
+            "disable_when_app_background"
+          ]
+        },
+        "clipboard": {
+          "rules": [
+            "disable_anyway"
+          ]
+        },
+        "cell_location": {
+          "rules": [
+            "disable_anyway"
+          ]
+        },
+        "device_info": {
+          "rules": [
+            "disable_anyway"
+          ]
+        }
+      },
+      "strategy_map": {
+        "keys": [
+          "data_types",
+          "api_id"
+        ],
+        "rules": [
+          {
+            "title": "pair",
+            "conf": {
+              "strategy": "pair"
+            },
+            "cel": "data_types isIntersect [\"video\"]"
+          },
+          {
+            "title": "location",
+            "conf": {
+              "strategy": "location"
+            },
+            "cel": "data_types isIntersect [\"location\"] && api_id in [100000, 100001, 100002, 100004, 100005, 100006, 100007, 100008, 100009, 100010, 100011, 100012, 100900, 100902, 100903, 100909, 100910, 100911, 100912]"
+          },
+          {
+            "title": "clipboard",
+            "conf": {
+              "strategy": "clipboard"
+            },
+            "cel": "data_types isIntersect [\"clipboard\"] && api_id in [101803, 101804, 101809]"
+          },
+          {
+            "title": "cell_location",
+            "conf": {
+              "strategy": "cell_location"
+            },
+            "cel": "data_types isIntersect [\"location\"] && api_id in [100012, 100900, 100901, 100902, 100903, 100904, 100905, 100906, 100907, 100908, 100909, 100910, 100911, 100912]"
+          },
+          {
+            "title": "device_info",
+            "conf": {
+              "strategy": "device_info"
+            },
+            "cel": "data_types isIntersect [\"device_info\"]"
+          }
+        ]
+      }
+    }
+  }
+}

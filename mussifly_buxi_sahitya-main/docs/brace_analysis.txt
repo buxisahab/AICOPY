@@ -1,0 +1,79 @@
+﻿Line | Balance | Content
+--------------------------------------------------------------------------------
+ 196 |  +1 ->  +0 | PlaybackStatsListener.Callback {
+ 198 |  +2 ->  +1 | companion object {
+ 216 |  +1 ->  +2 | }
+ 239 |  +2 ->  +1 | inner class MusicBinder : Binder() {
+ 241 |  +3 ->  +2 | get() {
+ 247 |  +2 ->  +3 | }
+ 248 |  +1 ->  +2 | }
+ 272 |  +2 ->  +1 | .flatMapLatest { mediaMetadata ->
+ 274 |  +1 ->  +2 | }.stateIn(scope, SharingStarted.Lazily, null)
+ 276 |  +2 ->  +1 | currentMediaMetadata.flatMapLatest { mediaMetadata ->
+ 278 |  +1 ->  +2 | }
+ 306 |  +1 ->  +1 | get() = hybridDSPManager?.let { null } // Use HybridDSPManag
+ 307 |  +1 ->  +1 | set(value) { /* Ignored - use HybridDSPManager */ }
+ 318 |  +2 ->  +1 | private val audioBecomingNoisyReceiver = object : BroadcastR
+ 319 |  +3 ->  +2 | override fun onReceive(context: Context, intent: Intent) {
+ 320 |  +4 ->  +3 | when (intent.action) {
+ 321 |  +5 ->  +4 | AudioManager.ACTION_AUDIO_BECOMING_NOISY -> {
+ 324 |  +4 ->  +5 | }
+ 325 |  +3 ->  +4 | }
+ 326 |  +2 ->  +3 | }
+ 327 |  +1 ->  +2 | }
+ 354 |  +2 ->  +1 | private fun detectStreamEngine(streamUrl: String?, mediaId: 
+ 355 |  +3 ->  +2 | return when {
+ 376 |  +2 ->  +3 | }
+ 377 |  +1 ->  +2 | }
+ 394 |  +2 ->  +1 | fun clearSongUrlCache() {
+python : Traceback 
+(most recent call 
+last):
+At line:1 char:1
++ python 
+find_brace.py 2>&1 | 
+Out-File -FilePath 
+"brace_analysis.txt" 
+- ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (Traceback    
+ (most recent call    
+ last)::String) [    
+], RemoteExceptio    n
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+  File "D:\all_test_tu
+ne\mussifly_3.1_w\Open
+Tune-master\find_brace
+.py", line 23, in 
+<module>
+    print(f"{i:4} | 
+{count:+3} -> 
+{prev_count:+3} | 
+{content}")
+    ~~~~~^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Fil
+es\Python313\Lib\encod
+ings\cp1252.py", line 
+19, in encode
+    return codecs.char
+map_encode(input,self.
+errors,encoding_table)
+[0]
+           ~~~~~~~~~~~
+~~~~~~~~~~^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 
+'charmap' codec can't 
+encode character 
+'\U0001f9f9' in 
+position 32: 
+character maps to 
+<undefined>

@@ -1,0 +1,127 @@
+═══════════════════════════════════════════════════════════════
+  DOWNLOADITEM.KT - FINAL FIX (Copy-Paste Ready)
+═══════════════════════════════════════════════════════════════
+
+FILE: app/src/main/java/com/musifly/android/ui/component/DownloadItem.kt
+
+LOCATION: Around line 464-494 (in the action buttons Row)
+
+───────────────────────────────────────────────────────────────
+CURRENT CODE (SEARCH FOR THIS):
+───────────────────────────────────────────────────────────────
+
+                            // Action buttons
+                            Row(
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                if (mission.running && !mission.isPaused) {
+                                    IconButton(onClick = onPause) {
+                                        Icon(Icons.Default.Pause, "Pause")
+                                    }
+                                } else if (mission.isCorrupt()) {
+                                    // Retry button for failed downloads
+                                    IconButton(
+                                        onClick = onRetry,
+                                        enabled = retryCount < maxRetries
+                                    ) {
+                                        Icon(
+                                            Icons.Default.Refresh,
+                                            "Retry",
+                                            tint = if (retryCount < maxRetries) 
+                                                MaterialTheme.colorScheme.primary 
+                                            else 
+                                                MaterialTheme.colorScheme.onSurfaceVariant
+                                        )
+                                    }
+                                } else if (!mission.isFinished()) {
+                                    IconButton(onClick = onResume) {
+                                        Icon(Icons.Default.PlayArrow, "Resume")
+                                    }
+                                }
+
+───────────────────────────────────────────────────────────────
+REPLACE WITH THIS (UPDATED CODE):
+───────────────────────────────────────────────────────────────
+
+                            // Action buttons
+                            Row(
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                // REACTIVE STATE: Use derived state for instant UI updates
+                                if (isCurrentlyRunning) {
+                                    IconButton(onClick = onPause) {
+                                        Icon(Icons.Default.Pause, "Pause")
+                                    }
+                                } else if (mission.isCorrupt()) {
+                                    // Retry button for failed downloads
+                                    IconButton(
+                                        onClick = onRetry,
+                                        enabled = retryCount < maxRetries
+                                    ) {
+                                        Icon(
+                                            Icons.Default.Refresh,
+                                            "Retry",
+                                            tint = if (retryCount < maxRetries) 
+                                                MaterialTheme.colorScheme.primary 
+                                            else 
+                                                MaterialTheme.colorScheme.onSurfaceVariant
+                                        )
+                                    }
+                                } else if (canResume) {
+                                    IconButton(onClick = onResume) {
+                                        Icon(Icons.Default.PlayArrow, "Resume")
+                                    }
+                                }
+
+───────────────────────────────────────────────────────────────
+CHANGES MADE:
+───────────────────────────────────────────────────────────────
+
+Line ~467:
+  OLD: if (mission.running && !mission.isPaused) {
+  NEW: if (isCurrentlyRunning) {
+
+Line ~487:
+  OLD: } else if (!mission.isFinished()) {
+  NEW: } else if (canResume) {
+
+───────────────────────────────────────────────────────────────
+WHY THIS WORKS:
+───────────────────────────────────────────────────────────────
+
+The variables isCurrentlyRunning and canResume are already defined
+at the top of the DownloadItem composable (lines 64-74):
+
+    val isCurrentlyRunning = remember(mission.running, mission.isPaused, mission.finished) {
+        mission.running && !mission.isPaused && !mission.finished
+    }
+    
+    val canResume = remember(mission.finished, mission.running, mission.isPaused) {
+        !mission.finished && !mission.running && mission.isPaused
+    }
+
+These use Compose's remember() with dependencies, so they automatically
+recalculate when mission.running, mission.isPaused, or mission.finished
+changes. This ensures the button icon updates INSTANTLY when the event
+bus fires and the mission state changes.
+
+───────────────────────────────────────────────────────────────
+VERIFICATION:
+───────────────────────────────────────────────────────────────
+
+After making this change:
+
+1. Build the project
+2. Run on device
+3. Start a download
+4. Click Pause → Icon changes to Resume ✅
+5. Click Resume → Icon changes to Pause ✅
+6. NO SCREEN REFRESH NEEDED ✅
+
+Check logcat for:
+  "📢 Event received: Mission [id] → DOWNLOADING"
+  "📢 Event received: Mission [id] → PAUSED"
+
+═══════════════════════════════════════════════════════════════
+  DONE! This is the ONLY manual fix needed.
+═══════════════════════════════════════════════════════════════

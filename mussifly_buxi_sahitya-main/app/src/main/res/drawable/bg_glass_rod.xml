@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 
+       LAYER 1: The Heavy Glass Body (Refraction Base)
+       Dark edges (#E6000000) fading to transparent. 
+       This creates the "Thick Tube" look where the edges refract the dark background.
+    -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="1000dp" />
+            <gradient
+                android:angle="90"
+                android:type="linear"
+                android:startColor="#CC000000" 
+                android:centerColor="#05FFFFFF"
+                android:endColor="#CC000000" 
+                android:centerY="0.5"/>
+            
+            <!-- Dark Refractive Rim Stroke (Outer Shell) -->
+            <stroke android:width="1.2dp" android:color="#4D000000"/>
+        </shape>
+    </item>
+
+    <!-- 
+       LAYER 2: Internal Refraction Shadow (Volume)
+       A soft black gradient running along the top interior to simulate the 
+       thickness of the glass wall before the highlight.
+    -->
+    <item android:top="2dp" android:left="4dp" android:right="4dp" android:bottom="40dp">
+         <shape android:shape="rectangle">
+            <corners android:radius="1000dp"/>
+            <gradient 
+                android:angle="270"
+                android:startColor="#20000000"
+                android:endColor="#00000000"/>
+         </shape>
+    </item>
+
+    <!-- 
+       LAYER 3: The "Wet" Specular Highlight (Primary Light Source)
+       Bright, sharp white streak (~90% opacity fading to 0).
+       INSET: 3dp from top to sit 'inside' the glass.
+       Height: Constrained to top 35%.
+    -->
+    <item android:top="3dp" android:left="6dp" android:right="6dp" android:bottom="38dp">
+        <shape android:shape="rectangle">
+            <corners 
+                android:topLeftRadius="1000dp" 
+                android:topRightRadius="1000dp"
+                android:bottomLeftRadius="50dp"
+                android:bottomRightRadius="50dp"/>
+            <gradient
+                android:angle="270"
+                android:type="linear"
+                android:startColor="#F2FFFFFF"
+                android:endColor="#00FFFFFF" 
+                android:centerY="0.4"/>
+        </shape>
+    </item>
+
+    <!-- 
+       LAYER 4: Bottom Rim Catchlight (Secondary Reflection)
+       Sharp, thin white glow at the very bottom interior.
+    -->
+    <item android:top="58dp" android:left="12dp" android:right="12dp" android:bottom="3dp">
+        <shape android:shape="rectangle">
+            <corners 
+                android:bottomLeftRadius="1000dp" 
+                android:bottomRightRadius="1000dp"/>
+            <gradient
+                android:angle="90"
+                android:type="linear"
+                android:startColor="#66FFFFFF"
+                android:endColor="#00FFFFFF" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Spatial Audio / Surround Sound Icon -->
+    <!-- Center speaker/source -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12,3C10.34,3 9,4.34 9,6v12c0,1.66 1.34,3 3,3s3,-1.34 3,-3V6C15,4.34 13.66,3 12,3zM13,18c0,0.55 -0.45,1 -1,1s-1,-0.45 -1,-1V6c0,-0.55 0.45,-1 1,-1s1,0.45 1,1V18z"/>
+    
+    <!-- Left sound wave -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M3,10v4c0,0.55 0.45,1 1,1s1,-0.45 1,-1v-4c0,-0.55 -0.45,-1 -1,-1S3,9.45 3,10z"/>
+    
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M6,8v8c0,0.55 0.45,1 1,1s1,-0.45 1,-1V8c0,-0.55 -0.45,-1 -1,-1S6,7.45 6,8z"/>
+    
+    <!-- Right sound wave -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M16,8v8c0,0.55 0.45,1 1,1s1,-0.45 1,-1V8c0,-0.55 -0.45,-1 -1,-1S16,7.45 16,8z"/>
+    
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M19,10v4c0,0.55 0.45,1 1,1s1,-0.45 1,-1v-4c0,-0.55 -0.45,-1 -1,-1S19,9.45 19,10z"/>
+</vector>

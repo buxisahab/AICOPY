@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/ic_musifly_launcher*,@drawable/opentune_monochrome,@drawable/sahitya_h,@drawable/sahitya_mic,@drawable/previewalbum,@drawable/widget_preview,@mipmap/ic_musifly_launcher*"
+    tools:discard="@drawable/sahitya_mk,@drawable/musifly,@drawable/radar" />

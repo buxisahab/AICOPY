@@ -1,0 +1,145 @@
+﻿Reusing configuration cache.
+> Task :kugou:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :innertube:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :lrclib:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :kizzy:processResources NO-SOURCE
+> Task :kizzy:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :material-color-utilities:processResources NO-SOURCE
+> Task :kugou:processResources NO-SOURCE
+> Task :lrclib:processResources NO-SOURCE
+> Task :innertube:processResources NO-SOURCE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :jossredconnect:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :kizzy:compileKotlin UP-TO-DATE
+> Task :jossredconnect:processResources NO-SOURCE
+> Task :kugou:compileKotlin UP-TO-DATE
+> Task :lrclib:compileKotlin UP-TO-DATE
+> Task :innertube:compileKotlin UP-TO-DATE
+> Task :kizzy:compileJava NO-SOURCE
+> Task :kizzy:classes UP-TO-DATE
+> Task :kugou:compileJava NO-SOURCE
+> Task :kugou:classes UP-TO-DATE
+> Task :lrclib:compileJava NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :innertube:compileJava NO-SOURCE
+> Task :kizzy:jar UP-TO-DATE
+> Task :lrclib:classes UP-TO-DATE
+> Task :innertube:classes UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :material-color-utilities:compileJava UP-TO-DATE
+> Task :material-color-utilities:classes UP-TO-DATE
+> Task :kugou:jar UP-TO-DATE
+> Task :innertube:jar UP-TO-DATE
+> Task :lrclib:jar UP-TO-DATE
+> Task :jossredconnect:compileKotlin UP-TO-DATE
+> Task :material-color-utilities:jar UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :jossredconnect:compileJava NO-SOURCE
+> Task :jossredconnect:classes UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :jossredconnect:jar UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+
+> Task :app:kspDebugKotlin
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:345: The query returns some columns [songCountListened, timeListened] which are not used by com.musifly.android.db.entities.Song. You can use @ColumnInfo annotation on the fields to specify the mapping. You can annotate the method with @RewriteQueriesToDropUnusedColumns to direct Room to rewrite your query to avoid fetching unused columns.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, title, duration, thumbnailUrl, albumId, albumName, year, date, dateModified, liked, likedDate, totalPlayTime, inLibrary, dateDownload, songCountListened, timeListened.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:422: The query returns some columns [downloadCount] which are not used by com.musifly.android.db.entities.Album. You can use @ColumnInfo annotation on the fields to specify the mapping. You can annotate the method with @RewriteQueriesToDropUnusedColumns to direct Room to rewrite your query to avoid fetching unused columns.  You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary, downloadCount, songCountListened, timeListened.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:527:  com.musifly.android.db.entities.Artist has some fields [timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, thumbnailUrl, channelId, songCount, lastUpdateTime, bookmarkedAt, songCount.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:561:  com.musifly.android.db.entities.Artist has some fields [timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, thumbnailUrl, channelId, songCount, lastUpdateTime, bookmarkedAt, songCount.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:567:  com.musifly.android.db.entities.Artist has some fields [timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, thumbnailUrl, channelId, songCount, lastUpdateTime, bookmarkedAt, songCount.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:573:  com.musifly.android.db.entities.Artist has some fields [timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, thumbnailUrl, channelId, songCount, lastUpdateTime, bookmarkedAt, songCount.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:579:  com.musifly.android.db.entities.Artist has some fields [timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, thumbnailUrl, channelId, songCount, lastUpdateTime, bookmarkedAt.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:601:  com.musifly.android.db.entities.Artist has some fields [timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, thumbnailUrl, channelId, songCount, lastUpdateTime, bookmarkedAt, songCount.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:607:  com.musifly.android.db.entities.Artist has some fields [timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, thumbnailUrl, channelId, songCount, lastUpdateTime, bookmarkedAt, songCount.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:613:  com.musifly.android.db.entities.Artist has some fields [timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, thumbnailUrl, channelId, songCount, lastUpdateTime, bookmarkedAt, songCount.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:619:  com.musifly.android.db.entities.Artist has some fields [timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, thumbnailUrl, channelId, songCount, lastUpdateTime, bookmarkedAt, songCount.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:641:  com.musifly.android.db.entities.Artist has some fields [timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, thumbnailUrl, channelId, songCount, lastUpdateTime, bookmarkedAt, songCount.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:696:  com.musifly.android.db.entities.Artist has some fields [timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, thumbnailUrl, channelId, songCount, lastUpdateTime, bookmarkedAt, songCount.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:711:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary, songCount.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:715:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:719:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:723:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:727:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:731:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:745:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:749:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:753:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:757:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:761:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:765:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:779:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:833:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:929:  com.musifly.android.db.entities.Artist has some fields [timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, name, thumbnailUrl, channelId, songCount, lastUpdateTime, bookmarkedAt, songCount.
+w: [ksp] D:/all_test_tune/mussifly_3.1_w/OpenTune-master/app/src/main/java/com/musifly/android/db/DatabaseDao.kt:938:  com.musifly.android.db.entities.Album has some fields [songCountListened, timeListened] which are not returned by the query. If they are not supposed to be read from the result, you can mark them with @Ignore annotation. You can suppress this warning by annotating the method with @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH). Columns returned by the query: id, playlistId, title, year, thumbnailUrl, themeColor, songCount, duration, lastUpdateTime, bookmarkedAt, likedDate, inLibrary.
+.\gradlew.bat : e: fil
+e:///D:/all_test_tune/
+mussifly_3.1_w/OpenTun
+e-master/app/src/main/
+java/com/musifly/andro
+id/playback/MusicServi
+ce.kt:4523:2 Missing 
+'}
+At line:1 char:1
++ .\gradlew.bat :app:c
+ompileDebugKotlin 
+2>&1 | Out-File 
+-FilePath "late ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (e: file://   
+ /D:/a...23:2 Miss    
+ing '}:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+
+> Task :app:kspDebugKotlin FAILED
+
+FAILURE: Build failed 
+with an exception.
+
+* What went wrong:
+Execution failed for 
+task 
+':app:kspDebugKotlin'.
+> A failure occurred 
+while executing org.je
+tbrains.kotlin.compile
+rRunner.GradleCompiler
+RunnerWithWorkers$Grad
+leKotlinCompilerWorkAc
+tion
+   > Compilation 
+error. See log for 
+more details
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to get 
+more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at htt
+ps://help.gradle.org.
+
+BUILD FAILED in 15s
+27 actionable tasks: 1 executed, 26 up-to-date
+Configuration cache entry reused.

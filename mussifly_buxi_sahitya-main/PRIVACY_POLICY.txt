@@ -1,0 +1,88 @@
+PRIVACY POLICY FOR MUSSIFLY
+===========================
+
+Last Updated: [DATE_HERE]
+
+Welcome to Mussifly. This Privacy Policy describes how [DEVELOPER_NAME] ("we", "us", or "our") collects, uses, and shares your information when you use the Mussifly Android application.
+
+1. INFORMATION WE COLLECT
+-------------------------
+To provide you with the best music streaming experience, we collect certain information:
+
+* Personal Information: When you create an account, we may collect your name, email address, and profile photo.
+* User-Generated Content: We collect information you provide through social features, such as your profile bio and followers/following lists.
+* App Activity: We collect data about how you interact with the app (e.g., songs played, search history) to improve performance.
+* Device or other IDs: We collect basic information like device model, OS version, and unique identifiers required for app security and licensing.
+* Local Cached Media: Cached songs are stored on your device's local storage for offline playback and are managed exclusively by you.
+
+2. INFORMATION WE DO NOT COLLECT
+--------------------------------
+Maintaining your privacy is our priority. We explicitly DO NOT access or collect:
+
+* Your contacts or call logs.
+* Your SMS messages.
+* Your precise GPS location tracking.
+* Any unnecessary personal data not required for the app's functionality.
+
+3. THIRD-PARTY SERVICES
+-----------------------
+Mussifly utilizes reputable third-party services to provide core functionalities:
+
+* Authentication & Database: We use services like Supabase and Firebase for user authentication, database management, and secure cloud storage.
+* Media Sources: Mussifly streams music from publicly available or third-party sources, such as YouTube. Your interactions with these sources may be subject to their own privacy policies.
+* Analytics: We may use Google Analytics or Firebase Crashlytics to monitor app stability and performance.
+
+4. DATA USAGE
+-------------
+We use the collected data solely for the following purposes:
+
+* To provide and maintain our music streaming services.
+* To manage your account and authenticate your identity.
+* To enable social features like following other users.
+* To monitor app usage and improve overall performance and user experience.
+* To provide customer support and respond to your inquiries.
+
+5. CONTENT DISCLAIMER
+---------------------
+IMPORTANT NOTICE: Mussifly does not host or store any copyrighted music content on its own servers. All content is streamed from publicly available or third-party sources. We respect intellectual property rights and provide an interface to access publicly available media.
+
+6. DATA STORAGE & SECURITY
+--------------------------
+* Security: All personal data is transmitted over secure, encrypted connections (HTTPS) and stored on secure cloud servers.
+* No Third-Party Sharing: We do not sell or share your personal information with third parties for marketing purposes.
+* Local Storage: Cached media files are stored only on your device. Clearing the app cache will remove this data.
+
+7. CHILDREN'S PRIVACY
+---------------------
+Mussifly is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected info from a child under 13, we will take steps to delete that data immediately.
+
+8. PERMISSIONS EXPLAINED
+------------------------
+To function correctly, Mussifly requires the following permissions:
+
+* INTERNET: Required to stream music and sync your profile data.
+* STORAGE / MEDIA ACCESS: Required to cache songs for offline use and to upload/save profile images.
+* NOTIFICATIONS: Required to send you updates regarding your account or social interactions (if enabled).
+
+9. YOUR RIGHTS
+--------------
+You have full control over your data within Mussifly:
+
+* You can update your profile information at any time within the app settings.
+* You can clear the app's local cache at any time to free up space.
+* ACCOUNT DELETION: You can permanently delete your account and all associated personal data from our servers through the account settings menu.
+
+10. POLICY UPDATES
+------------------
+We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last Updated" date. We recommend checking the policy periodically inside the app or on the Play Store.
+
+11. CONTACT US
+--------------
+If you have any questions or concerns about this Privacy Policy, please contact us at:
+
+Developer: [DEVELOPER_NAME]
+Email: [SUPPORT_EMAIL]
+Website: [WEBSITE_URL]
+
+---------------------------------------------------
+(c) 2026 Mussifly. All Rights Reserved.

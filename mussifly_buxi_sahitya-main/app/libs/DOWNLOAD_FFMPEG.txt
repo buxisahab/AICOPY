@@ -1,0 +1,46 @@
+📦 FFmpeg Kit Library - Download Instructions
+================================================
+
+⚠️ IMPORTANT: FFmpeg Kit has been discontinued by the original maintainer.
+We use a precompiled .aar file as a workaround.
+
+📥 DOWNLOAD REQUIRED FILE:
+--------------------------
+1. Visit this URL:
+   https://artifactory.appodeal.com/appodeal-public/com/arthenica/ffmpeg-kit-full-gpl/6.0-2.LTS/
+
+2. Download file: ffmpeg-kit-full-gpl-6.0-2.LTS.aar
+
+3. Place the downloaded .aar file in this folder:
+   app/libs/ffmpeg-kit-full-gpl-6.0-2.LTS.aar
+
+✅ AFTER DOWNLOADING:
+---------------------
+- The file should be placed at: app/libs/ffmpeg-kit-full-gpl-6.0-2.LTS.aar
+- File size: ~50-60 MB
+- Then run: ./gradlew assembleDebug
+
+🔧 WHAT THIS LIBRARY DOES:
+---------------------------
+- Enables FFmpeg video/audio merging in Android
+- Allows instant merge with no re-encoding (-c:v copy -c:a copy)
+- Used for combining video-only and audio-only streams from YouTube
+
+📝 ALTERNATIVE DOWNLOAD LINKS:
+-------------------------------
+If the above link doesn't work, try these alternatives:
+1. Direct from GitHub releases (if available)
+2. https://github.com/arthenica/ffmpeg-kit/releases
+3. Community-maintained mirrors
+
+⚡ GPL LICENSE NOTICE:
+----------------------
+This is the GPL version of FFmpeg Kit. If you're distributing your app:
+- You must comply with GPL-3.0 license terms
+- You must make your source code available
+- Or use the LGPL version instead (if available)
+
+For commercial use without GPL obligations, consider alternatives like:
+- Media3 (Google's library - limited codec support)
+- Native MediaCodec (Android built-in)
+- Compile your own LGPL FFmpeg build

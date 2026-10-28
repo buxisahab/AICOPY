@@ -1,0 +1,86 @@
+<!-- 
+    ADD THIS TO YOUR AndroidManifest.xml
+    Location: app/src/main/AndroidManifest.xml
+-->
+
+<!-- STEP 1: Add permissions at top level (outside <application> tag) -->
+<!-- Place these near your other permissions -->
+
+<!-- NewPipe Streaming Engine Permissions -->
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+<!-- STEP 2: Add service inside <application> tag -->
+<!-- Place this with your other services -->
+
+<application
+    ...>
+    
+    <!-- Your existing activities and services -->
+    
+    <!-- NewPipe Streaming Service -->
+    <service
+        android:name=".streaming.StreamingPlayerService"
+        android:enabled="true"
+        android:exported="false"
+        android:foregroundServiceType="mediaPlayback"
+        android:stopWithTask="false">
+        <!-- stopWithTask="false" keeps music playing when user swipes app away -->
+    </service>
+    
+</application>
+
+
+<!-- COMPLETE EXAMPLE: -->
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!- Existing permissions ->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <!- NewPipe Streaming permissions ->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.App">
+
+        <!- Your existing activities ->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!- NewPipe Streaming Service ->
+        <service
+            android:name=".streaming.StreamingPlayerService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback"
+            android:stopWithTask="false" />
+
+    </application>
+
+</manifest>
+-->
+
+
+<!-- THAT'S IT! You're done with AndroidManifest.xml -->

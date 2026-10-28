@@ -1,0 +1,178 @@
+═══════════════════════════════════════════════════════════════
+  🎵 MUSIFLY - ALL AUDIO FORMATS SUPPORTED - QUICK REFERENCE
+═══════════════════════════════════════════════════════════════
+
+✅ NOW PLAYING: **ALL AUDIO FORMATS** (19+ Extensions)
+
+───────────────────────────────────────────────────────────────
+  📋 COMPLETE FORMAT LIST
+───────────────────────────────────────────────────────────────
+
+🎵 LOSSLESS QUALITY (CD & Better):
+   ✓ .flac  - FLAC (most popular lossless)
+   ✓ .wav   - WAV (uncompressed)
+   ✓ .aiff  - AIFF (Apple lossless)
+   ✓ .aif   - AIFF (short extension)
+
+🎶 HIGH QUALITY LOSSY (Good compression):
+   ✓ .mp3   - MP3 (universal compatibility)
+   ✓ .m4a   - M4A/AAC (iTunes standard)
+   ✓ .aac   - AAC (advanced audio coding)
+   ✓ .ogg   - OGG Vorbis (open format)
+   ✓ .oga   - OGG Audio
+   ✓ .opus  - Opus (modern efficient codec)
+
+📱 MOBILE/VOICE FORMATS:
+   ✓ .amr   - AMR (voice recordings)
+   ✓ .3gp   - 3GP audio
+
+🎬 VIDEO CONTAINERS (audio track):
+   ✓ .mp4   - MP4 audio
+   ✓ .webm  - WebM audio
+   ✓ .mkv   - Matroska video (audio)
+   ✓ .mka   - Matroska audio
+
+🎭 THEATER/SURROUND FORMATS:
+   ✓ .ac3   - AC3 (Dolby Digital 5.1)
+   ✓ .eac3  - E-AC3 (Dolby Digital Plus 7.1)
+   ✓ .dts   - DTS (surround sound)
+
+💻 OTHER FORMATS:
+   ✓ .wma   - WMA (Windows Media Audio)
+
+───────────────────────────────────────────────────────────────
+  📊 BY QUALITY LEVEL
+───────────────────────────────────────────────────────────────
+
+💎 AUDIOPHILE (Lossless):
+   FLAC, WAV, AIFF → 1411+ kbps
+
+🎵 EXCELLENT (High bitrate):
+   MP3 320kbps, AAC 256kbps, OPUS 256kbps
+
+🎶 GOOD (Standard):
+   MP3 192kbps, AAC 192kbps, OGG 192kbps
+
+📱 MOBILE (Efficient):
+   OPUS 96kbps, AAC 128kbps, OGG 128kbps
+
+📞 VOICE (Minimal):
+   AMR 12.2kbps, OPUS 32kbps
+
+───────────────────────────────────────────────────────────────
+  🔥 POPULAR FORMATS RANKED BY USAGE
+───────────────────────────────────────────────────────────────
+
+1. MP3     ⭐⭐⭐⭐⭐ (Most universal)
+2. M4A/AAC ⭐⭐⭐⭐⭐ (iTunes/Apple standard)
+3. FLAC    ⭐⭐⭐⭐  (Audiophile favorite)
+4. OGG     ⭐⭐⭐   (Open source)
+5. OPUS    ⭐⭐⭐   (Modern efficient)
+6. WAV     ⭐⭐    (Studio/uncompressed)
+7. WMA     ⭐⭐    (Windows legacy)
+8. Others  ⭐     (Specialized uses)
+
+───────────────────────────────────────────────────────────────
+  ⚡ BEST FORMATS FOR DIFFERENT NEEDS
+───────────────────────────────────────────────────────────────
+
+📱 BEST FOR STORAGE (Small files):
+   → OPUS (best compression/quality)
+   → AAC (excellent balance)
+   → OGG (good compression)
+
+🎧 BEST FOR QUALITY (Audiophile):
+   → FLAC (lossless, widely supported)
+   → WAV (simple, uncompressed)
+   → AIFF (Apple lossless)
+
+🔄 BEST FOR COMPATIBILITY:
+   → MP3 (plays everywhere)
+   → M4A (Apple ecosystem)
+
+🎬 BEST FOR VIDEO SOUNDTRACKS:
+   → MP4/M4A (video container)
+   → WebM (modern web)
+   → MKV (flexible container)
+
+───────────────────────────────────────────────────────────────
+  🛠️ TECHNICAL SPECS
+───────────────────────────────────────────────────────────────
+
+Bitrate Support:
+   ✓ 4.75 kbps   (AMR minimum)
+   ✓ 128 kbps    (Standard MP3/AAC)
+   ✓ 256 kbps    (High quality lossy)
+   ✓ 320 kbps    (MP3 maximum)
+   ✓ 1411 kbps   (FLAC CD quality)
+   ✓ 9216 kbps   (DTS-HD Master)
+
+Sample Rates:
+   ✓ 8 kHz       (Voice)
+   ✓ 44.1 kHz    (CD quality)
+   ✓ 48 kHz      (Professional)
+   ✓ 96 kHz      (High resolution)
+   ✓ 192 kHz     (Ultra high-res)
+
+Channels:
+   ✓ Mono        (1.0)
+   ✓ Stereo      (2.0)
+   ✓ 5.1         (AC3, DTS)
+   ✓ 7.1         (E-AC3, DTS-HD)
+
+───────────────────────────────────────────────────────────────
+  📖 MIME TYPES REFERENCE
+───────────────────────────────────────────────────────────────
+
+audio/mpeg          → MP3
+audio/mp4           → M4A/MP4
+audio/aac           → AAC
+audio/flac          → FLAC
+audio/ogg           → OGG Vorbis
+audio/opus          → Opus
+audio/wav           → WAV
+audio/x-wav         → WAV (alt)
+audio/webm          → WebM
+audio/x-matroska    → MKV/MKA
+audio/amr           → AMR
+audio/3gpp          → 3GP
+audio/ac3           → AC3
+audio/eac3          → E-AC3
+audio/vnd.dts       → DTS
+audio/x-ms-wma      → WMA
+audio/aiff          → AIFF
+
+───────────────────────────────────────────────────────────────
+  ✅ TESTING CHECKLIST
+───────────────────────────────────────────────────────────────
+
+Test these file types to verify support:
+
+[ ] MP3 file       (most common)
+[ ] M4A file       (iTunes/Apple)
+[ ] FLAC file      (lossless)
+[ ] OGG file       (open format)
+[ ] OPUS file      (modern codec)
+[ ] WAV file       (uncompressed)
+[ ] WMA file       (Windows)
+[ ] AC3 file       (surround sound)
+
+Expected behavior:
+✓ File loads and plays
+✓ Seeking works smoothly
+✓ Album art displays (if embedded)
+✓ Duration shown correctly
+✓ No crashes or errors
+
+───────────────────────────────────────────────────────────────
+  🎉 SUMMARY
+───────────────────────────────────────────────────────────────
+
+Total Formats Supported: 19+
+Total MIME Types: 23+
+Quality Range: 4.75 kbps → 9216 kbps
+Channel Support: Mono → 7.1 Surround
+
+🎵 ALL YOUR MUSIC, ANY FORMAT! 🎵
+
+═══════════════════════════════════════════════════════════════

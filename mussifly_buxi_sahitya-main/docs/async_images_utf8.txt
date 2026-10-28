@@ -1,0 +1,424 @@
+﻿
+app\src\main\java\com\musifly
+\android\MainActivity.kt:1280
+:                            
+                        
+AsyncImage(
+app\src\main\java\com\musifly
+\android\MainActivity.kt:2231
+:                            
+                            
+coil.compose.AsyncImage(
+app\src\main\java\com\musifly
+\android\MainActivity.kt:2641
+:                    
+AsyncImage(
+app\src\main\java\com\musifly
+\android\MainActivity.kt:2657
+:                    
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\AvatarD
+isplay.kt:63:                
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\AvatarD
+isplay.kt:79:                
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\CustomA
+vatarSelector.kt:557:        
+                    
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\CustomA
+vatarSelector.kt:651:        
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\CustomA
+vatarSelector.kt:715:        
+        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\CustomA
+vatarSelector.kt:730:        
+        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Downloa
+dDialog.kt:924:              
+                      
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Downloa
+dItem.kt:225:                
+        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Downloa
+dItem.kt:236:                
+        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\HdThumb
+nail.kt:104:        
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:426:                
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:526:        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:604:        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:692:        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:731:        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:755:        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:861:        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:987:        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:1078:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:1179:                
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:1204:                      
+  AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:1253:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:1304:                    
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:1329:                      
+      AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:1389:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:1557:                
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:1697:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:1873:        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:1971:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:2066:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Items.k
+t:2130:        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Lyrics.
+kt:565:                    
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Lyrics.
+kt:993:                      
+      AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Recomme
+ndationCards.kt:76:          
+  AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Recomme
+ndationCards.kt:141:         
+   AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Recomme
+ndationCards.kt:204:         
+   AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\Recomme
+ndationCards.kt:272:         
+   AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\SaavnCo
+mponents.kt:161:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\SaavnCo
+mponents.kt:215:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\SaavnCo
+mponents.kt:269:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\SaavnCo
+mponents.kt:348:        
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\SaavnCo
+mponents.kt:427:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\component\liquidg
+lass\catalog\components\Liqui
+dBottomNavigation.kt:106:    
+                    
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\menu\AlbumMenu.kt
+:222:                        
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\menu\PlayerMenu.k
+t:203:                       
+     AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\menu\SaavnArtistM
+enu.kt:78:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\menu\SongMenu.kt:
+286:                        
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\menu\YouTubePlayl
+istMenu.kt:309:              
+              AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\menu\YouTubeSongM
+enu.kt:172:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\MiniPlayer
+.kt:425:                     
+               AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\Player.kt:
+1253:                        
+                AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\Player.kt:
+1716:                    
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\Player.kt:
+2338:                        
+                    
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\layouts\Bl
+oomePlayerLayout.kt:509:     
+   AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\layouts\In
+stagramPlayerLayout.kt:251:  
+                  AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\layouts\In
+stagramPlayerLayout.kt:495:  
+              AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\layouts\In
+stagramPlayerLayout.kt:569:  
+                  AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\layouts\In
+stagramPlayerLayout.kt:620:  
+              AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\layouts\In
+stagramPlayerLayout.kt:693:  
+                  AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\layouts\In
+stagramPlayerLayout.kt:741:  
+              AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\layouts\Mu
+ssiflyPremiumPlayerLayout.kt:
+272:        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\layouts\Mu
+ssiflyPremiumPlayerLayout.kt:
+293:            AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\player\layouts\Sp
+otifyPlayerLayout.kt:457:    
+                            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\AlbumScre
+en.kt:222:                   
+             AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\AlbumScre
+en.kt:377:                   
+             AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\HomeScree
+n.kt:1346:                   
+                         
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\HomeScree
+n.kt:1422:                   
+                             
+    AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\HomeScree
+n.kt:1482:                   
+                             
+    AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\HomeScree
+n.kt:1573:                   
+                             
+            AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\HomeScree
+n.kt:1703:                   
+                             
+        AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\HomeScree
+n.kt:1846:                   
+                             
+            AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\LocalMusi
+cScreen.kt:280:        
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\NewReleas
+eScreen.kt:280:              
+                          
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\Notificat
+ionScreen.kt:293:        
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\Notificat
+ionScreen.kt:400:            
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\artist\Ar
+tistScreen.kt:182:           
+             AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\artist\Ar
+tistScreen.kt:211:           
+                     
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\artist\Ar
+tistScreen.kt:511:           
+                     
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\artist\Ar
+tistScreen.kt:565:           
+                         
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\library\C
+achePlaylistScreen.kt:169:   
+                             
+    AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\playlist\
+AutoPlaylistScreen.kt:328:   
+                             
+            AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\playlist\
+LocalPlaylistScreen.kt:1077: 
+                       
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\playlist\
+LocalPlaylistScreen.kt:1092: 
+                       
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\playlist\
+LocalPlaylistScreen.kt:1118: 
+                             
+  AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\playlist\
+OnlinePlaylistScreen.kt:278: 
+                             
+          AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\playlist\
+OnlinePlaylistScreen.kt:491: 
+                             
+              AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\playlist\
+TopPlaylistScreen.kt:245:    
+                             
+       AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\search\Us
+erSearchScreen.kt:209:       
+     AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\settings\
+AboutScreen.kt:210:          
+              AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\settings\
+AboutScreen.kt:522:          
+          AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\settings\
+BeautifulAccountScreen.kt:367
+:                            
+            AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\settings\
+BeautifulAccountScreen.kt:789
+:                        
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\settings\
+BeautifulAccountScreen.kt:799
+:                        
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\settings\
+GoogleAccountScreen.kt:131:  
+                          
+AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\settings\
+StorageSettings.kt:814:      
+      AsyncImage(
+app\src\main\java\com\musifly
+\android\ui\screens\settings\
+UserListScreen.kt:152:       
+ AsyncImage(
+
+
