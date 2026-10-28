@@ -357,6 +357,20 @@ private fun ProfileContent(
                             color = MaterialTheme.colorScheme.onSurface
                         )
                         VerificationBadge(profile.badge_type, profile.is_verified)
+                        // Resso VIP Premium Badge
+                        Surface(
+                            shape = RoundedCornerShape(6.dp),
+                            color = Color(0xFFF2BE8A).copy(alpha = 0.2f),
+                            border = BorderStroke(1.dp, Color(0xFFF2BE8A).copy(alpha = 0.6f))
+                        ) {
+                            Text(
+                                text = "VIP",
+                                fontSize = 11.sp,
+                                fontWeight = FontWeight.ExtraBold,
+                                color = Color(0xFFF2BE8A),
+                                modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
+                            )
+                        }
                     }
                     
                     Text(
@@ -462,6 +476,54 @@ private fun ProfileContent(
             }
         }
 
+        // ── 3.5 VIP Perks Card (Resso Premium Unlocked) ──────────────────
+        item {
+            Card(
+                shape = RoundedCornerShape(16.dp),
+                colors = CardDefaults.cardColors(containerColor = Color(0xFF1E1B18)),
+                border = BorderStroke(1.dp, Color(0xFFF2BE8A).copy(alpha = 0.35f)),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 20.dp, vertical = 6.dp)
+            ) {
+                Row(
+                    modifier = Modifier.padding(16.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Column(modifier = Modifier.weight(1f)) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text(
+                                text = "⭐ Resso VIP Premium",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = Color(0xFFF2BE8A)
+                            )
+                            Spacer(modifier = Modifier.width(8.dp))
+                            Surface(
+                                shape = RoundedCornerShape(4.dp),
+                                color = Color(0xFF4CAF50).copy(alpha = 0.2f)
+                            ) {
+                                Text(
+                                    text = "ACTIVATED",
+                                    fontSize = 10.sp,
+                                    fontWeight = FontWeight.ExtraBold,
+                                    color = Color(0xFF4CAF50),
+                                    modifier = Modifier.padding(horizontal = 5.dp, vertical = 1.dp)
+                                )
+                            }
+                        }
+                        Spacer(modifier = Modifier.height(4.dp))
+                        Text(
+                            text = "Lossless 320k Audio • Unlimited Skips • Ad-Free • Vibe Visualizers • Sleep Timer",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = Color.White.copy(alpha = 0.7f),
+                            lineHeight = 18.sp
+                        )
+                    }
+                }
+            }
+        }
+
         // ── 4. Library Filter Chips ───────────────────────────────────────────
         item {
             LazyRow(
@@ -516,6 +578,16 @@ private fun ProfileContent(
                 subtitle = "Most played songs",
                 iconColor = Color(0xFFFFC107),
                 onClick = { navController.navigate("top_playlist/50") }
+            )
+        }
+
+        item {
+            LibraryOptionItem(
+                icon = Icons.Filled.Star,
+                title = "Taste Builder",
+                subtitle = "Tune recommendation genres & vibes",
+                iconColor = Color(0xFFFF4D67),
+                onClick = { navController.navigate("taste_builder") }
             )
         }
 

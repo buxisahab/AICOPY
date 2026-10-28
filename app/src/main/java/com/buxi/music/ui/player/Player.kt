@@ -1944,6 +1944,71 @@ fun BottomSheetPlayer(
                     AudioEffectsScreen(onClose = { showAudioEffects = false })
                 }
             }
+
+            if (showSleepTimer) {
+                com.buxi.music.ui.component.RessoSleepTimerSheet(
+                    onDismiss = { showSleepTimer = false },
+                    playerConnection = playerConnection
+                )
+            }
+
+            if (showSpeedSheet) {
+                com.buxi.music.ui.component.RessoSpeedSheet(
+                    onDismiss = { showSpeedSheet = false },
+                    playerConnection = playerConnection
+                )
+            }
+
+            if (showAudioQuality) {
+                com.buxi.music.ui.component.RessoAudioQualitySheet(
+                    onDismiss = { showAudioQuality = false }
+                )
+            }
+
+            if (showMoreSheet) {
+                com.buxi.music.ui.component.RessoSongMoreSheet(
+                    mediaMetadata = mediaMetadata,
+                    isLiked = currentSong?.song?.liked == true,
+                    onToggleLike = { playerConnection.toggleLike() },
+                    onOpenSleepTimer = { showSleepTimer = true },
+                    onOpenSpeed = { showSpeedSheet = true },
+                    onOpenAudioQuality = { showAudioQuality = true },
+                    onOpenAudioEffects = { showAudioEffects = true },
+                    onAddToPlaylist = {
+                        mediaMetadata?.let { song ->
+                            menuState.show {
+                                com.buxi.music.ui.menu.AddToPlaylistDialog(
+                                    isVisible = true,
+                                    onDismiss = menuState::dismiss,
+                                    initialSongs = listOf(song)
+                                )
+                            }
+                        }
+                    },
+                    onViewArtist = {
+                        mediaMetadata?.artists?.firstOrNull()?.id?.let { artistId ->
+                            navController.navigate("artist/$artistId")
+                        }
+                    },
+                    onViewAlbum = {
+                        mediaMetadata?.album?.id?.let { albumId ->
+                            navController.navigate("album/$albumId")
+                        }
+                    },
+                    onHideSong = { showHideSongDialog = true },
+                    onDismiss = { showMoreSheet = false }
+                )
+            }
+
+            if (showHideSongDialog) {
+                com.buxi.music.ui.component.RessoHideSongDialog(
+                    mediaMetadata = mediaMetadata,
+                    onConfirmHide = {
+                        playerConnection.player.seekToNextMediaItem()
+                    },
+                    onDismiss = { showHideSongDialog = false }
+                )
+            }
         }
     }
 

@@ -82,6 +82,9 @@ fun NavGraphBuilder.navigationBuilder(
     composable("new_release") {
         NewReleaseScreen(navController, scrollBehavior)
     }
+    composable("taste_builder") {
+        RessoTasteBuilderScreen(navController)
+    }
 
 
 
